@@ -1,0 +1,28 @@
+header {
+  .navbar {
+    .container-fluid {
+      justify-content: normal;
+      .navbar-brand {
+        float: right;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        color: #1CABE2;
+        opacity: 0.8;
+        margin: 20px 64px 0 0;
+        @media (max-width: 992px) {
+          display: none;
+        }
+      }
+      
+      .navbar-brand-lg {
+
+        @media (max-width: 992px) {
+          display: block;
+        }
+      }
+    }
+  }
+}
