@@ -1,0 +1,63 @@
+// Place all the styles related to the Main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+// Header Image
+
+.header_elips {
+  background: #1CABE2;
+  opacity: 0.1;
+  border-radius: 50%;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.header_elips1 {
+  width: 565px;
+  height: 565px;
+  float: left;
+  margin: -250px 0px 0px -7%;
+  z-index: 1;
+}
+
+.header_elips2 {
+  width: 148px;
+  height: 148px;
+  float: left;
+  margin: 80px 0 0 -15%;
+  filter: blur(20px);
+}
+
+// Header Title
+
+
+
+// Card Styles
+
+.card-footer {
+  background-color: unset;
+  border-top: 0;
+  margin: 30px 50px 0 50px;
+  .header_title {
+    width: 260px;
+    height: 40px;
+    float: left;
+    font-family: 'Rubik One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 7.25px;
+    color: #1CABE2;
+    z-index: 2;
+  }
+}
+
+// Search
+.search {
+  float: right;
+  width: 148px;
+  height: 148px;
+  margin: 80px 0 0 -15%;
+  opacity: 0.1;
+  border-radius: 50%;
+}
